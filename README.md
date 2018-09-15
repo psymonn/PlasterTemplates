@@ -33,7 +33,9 @@ Genearate MD and Help files:
 --
 
 New-MarkdownHelp -Module platyPS -OutputFolder .\docs
+
 New-MarkdownHelp -Module PSGraph -OutputFolder .\docs
+
 New-MarkdownHelp -Module Mytools -OutputFolder .\docs
 
 New-MarkdownHelp -Module DiskSpaceInfo -OutputFolder .\docs
