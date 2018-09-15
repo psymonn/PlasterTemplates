@@ -31,7 +31,7 @@ Invoke-Plaster -TemplatePath 'F:\GitHub\Source\ProjectSamples\Plaster New Projec
 
 Invoke-Plaster -TemplatePath 'F:\GitHub\Source\ProjectSamples\Plaster New Project\PlasterTemplates\BlogPost' -DestinationPath .\temp3
 
-Genearate MD and Help files:
+Genearate MD and Help files (playtyPS):
 --
 
 New-MarkdownHelp -Module platyPS -OutputFolder .\docs
