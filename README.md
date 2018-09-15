@@ -24,7 +24,9 @@ Genearate Plaster Custom Template:
 ---
 
 Invoke-Plaster -TemplatePath 'F:\GitHub\Source\ProjectSamples\Plaster New Project\PlasterTemplates\Module' -DestinationPath .\temp3
+
 Invoke-Plaster -TemplatePath 'F:\GitHub\Source\ProjectSamples\Plaster New Project\PlasterTemplates\Function' -DestinationPath .\temp3
+
 Invoke-Plaster -TemplatePath 'F:\GitHub\Source\ProjectSamples\Plaster New Project\PlasterTemplates\BlogPost' -DestinationPath .\temp3
 
 Genearate MD and Help files:
@@ -33,6 +35,7 @@ Genearate MD and Help files:
 New-MarkdownHelp -Module platyPS -OutputFolder .\docs
 New-MarkdownHelp -Module PSGraph -OutputFolder .\docs
 New-MarkdownHelp -Module Mytools -OutputFolder .\docs
+
 New-MarkdownHelp -Module DiskSpaceInfo -OutputFolder .\docs
 
 New-ExternalHelp .\docs -OutputPath en-US\
